@@ -534,7 +534,7 @@ def main():
     if 'data_processor' not in st.session_state:
         with st.spinner('Loading data...'):
             # data_processor = DataProcessor(r"C:\Users\Snapp Pay\Downloads\mon price bf 19k - Merged Files 1 - Copy.csv")
-            data_processor = DataProcessor(r"mon.csv")
+            data_processor = DataProcessor(r"mont.csv")
             st.session_state.data_processor = data_processor
 
     data_processor = st.session_state.data_processor
